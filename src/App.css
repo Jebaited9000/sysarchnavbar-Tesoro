@@ -1,0 +1,56 @@
+App.css
+*{
+  margin: 0;
+}
+  
+  .Navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  }
+
+  .navlink{
+  display: flex;
+  justify-content:space-evenly;
+  max-width: 100%;
+  background-color: rgb(199, 18, 18);
+  }
+  
+  .link{
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 20px;
+  padding: 10px;
+  color: rgb(229, 235, 232);
+  }
+
+  .App {
+    background-color: rgb(248, 239, 239);
+    max-width: 100%;
+  } 
+
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }
+
+  .active{
+    color: black;
+  }
+
+  img{
+    width: 80px;
+  }
+ 
+  #myVideo {
+    position: fixed;
+    right: 0;
+    min-width: 100%;
+    min-height: 80%;
+    z-index: -1;
+  }
+  
+  
+ 
+ 
