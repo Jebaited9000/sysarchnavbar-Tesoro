@@ -1,11 +1,7 @@
 import React from 'react';
 import { CDBInput, CDBCard, CDBCardBody, CDBBtn, CDBContainer } from 'cdbreact';
-import { type } from '@testing-library/user-event/dist/type';
 
 const Forms = () => {
-  const displayEmail = () =>{
-    alert('Your email address is ' + type + '\nYour password is ' + type)
-  }
   return (
     <center>
     <CDBContainer>
@@ -23,7 +19,12 @@ const Forms = () => {
             iconClass="text-muted"
           />
           <CDBInput label="Your Password" type="password" icon="lock" iconClass="text-muted" />
-          <CDBBtn class="btn btn-success w-100" onClick={() => displayEmail()}>Register</CDBBtn>
+          <CDBInput label="Your location" type="address" icon="gps" iconClass="text-muted" />
+          <center>
+          <a href="/Registered">
+          <CDBBtn style={{margin: '10px'}} class="btn btn-success w-100"> Register</CDBBtn>
+          </a>
+          </center>
         </CDBCardBody>
       </CDBCard>
     </CDBContainer>

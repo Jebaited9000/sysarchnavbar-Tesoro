@@ -9,13 +9,13 @@ function Navi() {
     
     <div className='navBar'>
         <div className= 'navlink'>
-        <img src="./dota.png"/>
-            <Navbar className ="dark" variant="dark">
+        <img className='logo' src="./job.png"/>
+        <h3 className='sign'>Job Finder</h3>
+            <Navbar>
             <Container>
-            <Navbar.Brand href="#home">Dota 2</Navbar.Brand>
             <Nav className="me-auto">
                 <NavLink className = 'link ' to ="/">Home</NavLink>
-                <NavLink className = 'link ' to ="/aboutUs">About Us</NavLink>
+                <NavLink className = 'link ' to ="/aboutUs">Jobs</NavLink>
                 <NavLink className = 'link ' to ="/login">Login</NavLink>
                 <NavLink className = 'link ' to ="/registration">Registration</NavLink>
             </Nav>

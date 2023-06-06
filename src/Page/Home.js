@@ -3,13 +3,17 @@ import React from 'react'
 function Home() {
   return (
     
-    <div class ="bg-img">
+    <div>
       <video autoPlay muted loop id="myVideo">
-        <source src="dotes.mp4" type="video/mp4"></source>
+        <source src="workk.mp4" type="video/mp4"></source>
       </video>
-    </div>
-
-    
+      <center>
+      <img className='bg' src="./job.png"/>
+      <a href="/registration">
+      <button className='butt'>Find a Job</button> 
+      </a>
+      </center>
+    </div>  
   )
 }
 

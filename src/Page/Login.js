@@ -1,25 +1,26 @@
 import React from 'react';
-import { CDBInput, CDBCard, CDBCardBody, CDBIcon, CDBBtn, CDBLink, CDBContainer } from 'cdbreact';
+import { CDBInput, CDBCard, CDBCardBody, CDBIcon, CDBBtn, CDBContainer } from 'cdbreact';
 
 const Forms = () => {
   return (
     <center>
     <CDBContainer>
-      <CDBCard style={{ width: '30rem' }}>
-        <CDBCardBody className="mx-4">
+      <CDBCard style={{ width: '30rem', borderColor: 'black' }}>
+        <CDBCardBody  className="mx-4">
           <div className="text-center mt-4 mb-2">
             <p className="h4"> Sign in </p>
           </div>
           <CDBInput material hint="E-mail" type="email" />
           <CDBInput material hint="Password" type="password" />
+          <a href="/aboutUs">
           <CDBBtn color="dark" className="btn-block my-3 mx-0">
-           <a href="/welcome"> Sign in </a>        
+            Sign in        
           </CDBBtn>
+          </a>
           <p className="text-center">
-            Not a member?{' '}
-            <CDBLink className="d-inline p-0" to="#">
-            <a href="/registration"> Register </a>
-            </CDBLink>
+            Not a member?{' '}<a href="/registration">          
+             register
+            </a>
           </p>
           <p className="text-center"> or sign in with</p>
           <div className="flex-row my-3 d-flex justify-content-center">
